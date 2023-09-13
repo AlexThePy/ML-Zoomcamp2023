@@ -1,10 +1,24 @@
 Question 1: 
 What's the version of Pandas that you installed?
 
+Open cmd prompt and type:
+
+pip show Pandas
+
 Answer: pd.__version__1.5.3
 
 Question 2.
 How many columns are in the dataset?
+
+Code: 
+
+import pandas as pd
+
+df = pd.read_csv('S:\ML Course\Homework Week 1\datasets_master_housing.csv')
+
+# Get the number of columns
+num_columns = df.shape[1]
+print(f"The dataset has {num_columns} columns.")
 
 Answer: 10
 
