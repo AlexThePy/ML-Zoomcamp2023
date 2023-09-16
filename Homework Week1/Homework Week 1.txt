@@ -1,11 +1,13 @@
 Question 1: 
 What's the version of Pandas that you installed?
 
-Open cmd prompt and type:
+Code:
+import pandas as pd
 
-pip show Pandas
+print(pd.__version__)
 
-Answer: pd.__version__1.5.3
+
+Answer: my pandas version is 2.1.0
 
 Question 2.
 How many columns are in the dataset?
